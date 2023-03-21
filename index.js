@@ -58,7 +58,7 @@ function nextSequence() {
     playSound(randomcolor);
 }
 function playSound(name) {
-    new Audio("sounds/" + name + ".mp3").play();
+    new Audio("" + name + ".mp3").play();
 }
 
 function animatePress(currentColor) {
